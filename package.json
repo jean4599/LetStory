@@ -1,0 +1,19 @@
+{
+  "name": "letstory",
+  "version": "1.0.0",
+  "description": "- alfa server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyrhus/LetStory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyrhus/LetStory/issues"
+  },
+  "homepage": "https://github.com/tyrhus/LetStory#readme"
+}
