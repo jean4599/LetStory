@@ -1,7 +1,7 @@
-- alfa server
+-  alfa server
 
 ssh -i "letstory-alfa.pem" ec2-user@ec2-35-160-225-152.us-west-2.compute.amazonaws.com
 
-beta server
+- beta server
 
 ssh -i "letstory-alfa.pem" ec2-user@ec2-35-160-33-204.us-west-2.compute.amazonaws.com
