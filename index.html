@@ -17,7 +17,7 @@
 	var testing = document.getElementById('testing');
 	var dbRef = firebase.database().ref().child('text');
 	dbRef.on('value', snap=> testing.innerText = snap.val());
-
+	testing.innerHTML += "Testing git hooks";
 </script>
 
 <!--Value-->
