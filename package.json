@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/tyrhus/LetStory/issues"
   },
-  "homepage": "https://github.com/tyrhus/LetStory#readme"
+  "homepage": "https://github.com/tyrhus/LetStory#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "forever-monitor": "^1.7.1",
+    "muicss": "^0.9.4",
+    "react": "^15.3.2"
+  }
 }
