@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "serve": "PORT=8080 node app.js"
+    "serve": "PORT=80 node app.js"
   },
   "repository": {
     "type": "git",
