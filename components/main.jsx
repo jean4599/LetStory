@@ -4,6 +4,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {amber100, amber500, amber700} from 'material-ui/styles/colors';
 import Appbar from 'material-ui/AppBar';
 
+import Header from './Header';
+import FlatButton from 'material-ui/FlatButton';
 
 
 const muiTheme = getMuiTheme({
@@ -19,24 +21,40 @@ const muiTheme = getMuiTheme({
   //userAgent: req.headers['user-agent']
 });
 
+const FlatButtonExampleSimple = () => (
+    <MuiThemeProvider muiTheme={muiTheme}>
+      <div>
+        <FlatButton label="Default" />
+        <FlatButton label="Default" />
+        <FlatButton label="Default" />
+      </div>
+    </MuiThemeProvider>
+);
+
 const MainC = () => (
   <MuiThemeProvider muiTheme={muiTheme}>
+    <div>
       <Appbar
-        title="LetStory"
-        iconClassNameRight="muidocs-icon-navigation-expand-more"
+          title="LetStory"
+          iconClassNameRight="muidocs-icon-navigation-expand-more"
       />
+    </div>
+
   </MuiThemeProvider>
 );
 
 var Main = React.createClass({
   render: function () {
     return (
-    <MainC />
+        <div>
+          <MainC/>
+          <Header />
+          <FlatButtonExampleSimple />
+        </div>
+
+
     );
   }
 });
 
-
-module.exports = Main;
-
-//export default Main;
+module.exports = Main; //export default Main;
