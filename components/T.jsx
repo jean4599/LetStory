@@ -8,6 +8,7 @@ import LoginView from './LoginView';
 import RequesterView from './RequesterView';
 import WorkerView from './WorkerView';
 import HeaderView from './HeaderView';
+import FooterView from './FooterView';
 
 var components = {
   'MainView' : MainView,
@@ -16,13 +17,6 @@ var components = {
   'RequesterView' : RequesterView
 
 };
-
-class Footer extends React.Component{
-  render()
-  {
-    return (<div>Footer</div>)
-  }
-}
 
 
 class T extends React.Component{
@@ -41,7 +35,7 @@ class T extends React.Component{
           <body>
               <HeaderView />
               <El />
-              <Footer />
+              <FooterView />
           </body>
         </html>
     );
