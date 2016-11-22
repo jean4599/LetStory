@@ -14,6 +14,6 @@ npm install
 
 npm run dev
 
--to preview
+- to preview
 
 http://localhost:3000
