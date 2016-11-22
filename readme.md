@@ -14,6 +14,10 @@ npm install
 
 npm run dev
 
-- to preview
+- to preview locally
 
 http://localhost:3000
+
+- to preview online
+
+http://ec2-35-160-225-152.us-west-2.compute.amazonaws.com

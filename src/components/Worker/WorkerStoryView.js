@@ -4,11 +4,10 @@ const WorkerStoryView = React.createClass({
     render () {
         return (
             <div>
-                This is a RequesterView
+                This is a Story preview
             </div>
         )
     }
 })
 
 export default WorkerStoryView
-
