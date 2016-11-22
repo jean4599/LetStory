@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 import {Grid, Row, Col, Button, ButtonToolbar} from 'react-bootstrap';
 import MaterialPool from './MaterialPool';
+import StoryPool from './StoryPool';
 
 const sometext="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec hendrerit tempor tellus. Donec pretium posuere tellus. Proin quam nisl, tincidunt et, mattis eget, convallis nec, purus.";
 
@@ -11,7 +12,14 @@ const StoryTitle = React.createClass({
         )
     }
 });
+const StoryStatus = React.createClass({
+    render(){
 
+        return(
+            <h3>{this.props.title}</h3>
+        )
+    }
+});
 
 const Left = React.createClass({
     render(){
@@ -40,6 +48,7 @@ const Right = React.createClass({
                     </Col>
                     <Col md={12}>
                         <MaterialPool/>
+                        <StoryPool/>
                     </Col>
 
                 </Row>
