@@ -7,6 +7,7 @@ const app = express();
 
 app.set('appPath', 'public');
 app.use(express.static(__dirname +'/public'));
+app.use('/public',express.static(__dirname +'/public'));
 
 app.route('/*')
   .get(function(req, res) {
